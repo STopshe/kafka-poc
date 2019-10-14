@@ -4,3 +4,6 @@
 # Modified: 2019-10-08
 # Commit: refactor: simplify ride event producer
 
+# Modified: 2019-10-14
+# Commit: fix: mitigate producer config
+
