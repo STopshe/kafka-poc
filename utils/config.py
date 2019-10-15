@@ -7,3 +7,6 @@
 # Modified: 2019-10-10
 # Commit: test: add edge case test for schema registry client
 
+# Modified: 2019-10-15
+# Commit: fix: resolve KTable definition
+
