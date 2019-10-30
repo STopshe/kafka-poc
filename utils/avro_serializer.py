@@ -4,3 +4,6 @@
 # Modified: 2019-10-24
 # Commit: fix: resolve ride event producer
 
+# Modified: 2019-10-30
+# Commit: test: add regression test for deserializer
+
