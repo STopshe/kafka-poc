@@ -7,3 +7,6 @@
 # Modified: 2019-10-30
 # Commit: test: add regression test for deserializer
 
+# Modified: 2019-11-05
+# Commit: refactor: consolidate schema evolution
+
