@@ -4,3 +4,6 @@
 # Modified: 2019-11-08
 # Commit: fix: patch issue in state store
 
+# Modified: 2019-11-08
+# Commit: feat: scaffold Redis sorted set operation
+
