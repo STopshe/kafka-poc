@@ -7,3 +7,6 @@
 # Modified: 2019-10-14
 # Commit: fix: mitigate producer config
 
+# Modified: 2019-11-12
+# Commit: fix: address exactly-once config
+
