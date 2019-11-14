@@ -7,3 +7,6 @@
 # Modified: 2019-11-05
 # Commit: fix: resolve dead letter queue
 
+# Modified: 2019-11-14
+# Commit: feat: add Postgres trigger function with schema validation
+
