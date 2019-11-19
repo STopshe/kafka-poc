@@ -4,3 +4,6 @@
 # Modified: 2019-11-15
 # Commit: feat: introduce producer config
 
+# Modified: 2019-11-19
+# Commit: fix: resolve dead letter queue
+
