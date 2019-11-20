@@ -4,3 +4,6 @@
 # Modified: 2019-10-30
 # Commit: feat: introduce join operation
 
+# Modified: 2019-11-20
+# Commit: test: add tests for sticky assignor
+
