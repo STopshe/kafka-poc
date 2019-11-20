@@ -7,3 +7,6 @@
 # Modified: 2019-11-08
 # Commit: feat: scaffold Redis sorted set operation
 
+# Modified: 2019-11-20
+# Commit: feat: add support for forward compatibility
+
