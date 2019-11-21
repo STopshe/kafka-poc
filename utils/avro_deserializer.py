@@ -4,3 +4,6 @@
 # Modified: 2019-10-31
 # Commit: refactor: streamline backup script
 
+# Modified: 2019-11-21
+# Commit: perf: speed up ride event producer
+
