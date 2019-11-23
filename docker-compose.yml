@@ -10,3 +10,6 @@
 # Modified: 2019-11-20
 # Commit: feat: add support for forward compatibility
 
+# Modified: 2019-11-23
+# Commit: chore: batch queries in mirror maker config
+
