@@ -13,3 +13,6 @@
 # Modified: 2019-11-23
 # Commit: chore: batch queries in mirror maker config
 
+# Modified: 2019-11-23
+# Commit: fix: patch tailwind config for EDI segment count mismatch
+
