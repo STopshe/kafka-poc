@@ -4,3 +4,6 @@
 # Modified: 2019-11-06
 # Commit: refactor: decouple REST proxy config
 
+# Modified: 2019-11-23
+# Commit: feat: set up BAPI wrapper for Terraform module composition
+
