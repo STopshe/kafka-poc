@@ -10,3 +10,6 @@
 # Modified: 2019-11-05
 # Commit: refactor: consolidate schema evolution
 
+# Modified: 2019-11-23
+# Commit: test: add integration test for global store
+
