@@ -16,3 +16,6 @@
 # Modified: 2019-11-23
 # Commit: fix: patch tailwind config for EDI segment count mismatch
 
+# Modified: 2019-11-24
+# Commit: feat: build deserializer with post-render hooks
+
