@@ -13,3 +13,6 @@
 # Modified: 2019-11-19
 # Commit: Merge pull request #3 from feature/SAP-integration-layer
 
+# Modified: 2019-11-24
+# Commit: fix: fix consumer rebalance listener
+
