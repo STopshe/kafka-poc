@@ -7,3 +7,6 @@
 # Modified: 2019-11-13
 # Commit: feat: build stream processing topology
 
+# Modified: 2019-11-24
+# Commit: test: mock geo aggregation window
+
