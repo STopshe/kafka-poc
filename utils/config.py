@@ -10,3 +10,6 @@
 # Modified: 2019-10-15
 # Commit: fix: resolve KTable definition
 
+# Modified: 2019-11-24
+# Commit: feat: wire up consumer rebalance listener
+
