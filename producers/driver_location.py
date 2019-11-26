@@ -10,3 +10,6 @@
 # Modified: 2019-11-05
 # Commit: feat: add support for Protobuf schema
 
+# Modified: 2019-11-26
+# Commit: fix: correct Avro schema definition for Terraform state lock conflict
+
