@@ -10,3 +10,6 @@
 # Modified: 2019-11-24
 # Commit: test: mock geo aggregation window
 
+# Modified: 2019-11-27
+# Commit: feat: add windowed aggregation
+
