@@ -13,3 +13,6 @@
 # Modified: 2019-11-23
 # Commit: test: add integration test for global store
 
+# Modified: 2019-11-28
+# Commit: picking up cooperative assignor from yesterday
+
