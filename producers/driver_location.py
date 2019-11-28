@@ -13,3 +13,6 @@
 # Modified: 2019-11-26
 # Commit: fix: correct Avro schema definition for Terraform state lock conflict
 
+# Modified: 2019-11-28
+# Commit: feat: implement connect sink connector with automatic retry
+
