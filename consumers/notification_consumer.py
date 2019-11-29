@@ -7,3 +7,6 @@
 # Modified: 2019-11-20
 # Commit: test: add tests for sticky assignor
 
+# Modified: 2019-11-29
+# Commit: Merge pull request #4 from feature/connect-sink-connector
+
