@@ -4,3 +4,6 @@
 # Modified: 2019-10-08
 # Commit: refactor: reorganize topic creation script
 
+# Modified: 2019-12-02
+# Commit: feat: bootstrap Postgres array field
+
