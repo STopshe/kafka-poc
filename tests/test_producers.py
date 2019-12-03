@@ -10,3 +10,6 @@
 # Modified: 2019-11-21
 # Commit: feat: wire up stream processing topology
 
+# Modified: 2019-12-03
+# Commit: refactor: consolidate latency tracker
+
