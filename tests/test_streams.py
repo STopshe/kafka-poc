@@ -13,3 +13,6 @@
 # Modified: 2019-11-27
 # Commit: feat: add windowed aggregation
 
+# Modified: 2019-12-04
+# Commit: refactor: reorganize payment event consumer
+
