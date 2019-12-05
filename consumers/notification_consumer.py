@@ -10,3 +10,6 @@
 # Modified: 2019-11-29
 # Commit: Merge pull request #4 from feature/connect-sink-connector
 
+# Modified: 2019-12-05
+# Commit: test: add unit test for partitioner
+
