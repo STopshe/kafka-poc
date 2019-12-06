@@ -4,3 +4,6 @@
 # Modified: 2019-11-08
 # Commit: refactor: clean up join operation
 
+# Modified: 2019-12-06
+# Commit: refactor: simplify higher-order component
+
