@@ -7,3 +7,6 @@
 # Modified: 2019-12-02
 # Commit: feat: bootstrap Postgres array field
 
+# Modified: 2019-12-11
+# Commit: fix: address failover handler
+
