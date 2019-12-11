@@ -4,3 +4,6 @@
 # Modified: 2019-12-10
 # Commit: feat: bootstrap join operation
 
+# Modified: 2019-12-11
+# Commit: feat: introduce partition assignment
+
