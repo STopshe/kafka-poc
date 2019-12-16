@@ -7,3 +7,6 @@
 # Modified: 2019-12-06
 # Commit: refactor: simplify higher-order component
 
+# Modified: 2019-12-16
+# Commit: refactor: streamline state store
+
