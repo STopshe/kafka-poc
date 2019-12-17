@@ -7,3 +7,6 @@
 # Modified: 2019-11-23
 # Commit: feat: set up BAPI wrapper for Terraform module composition
 
+# Modified: 2019-12-17
+# Commit: feat: implement connect sink connector using remote state
+
