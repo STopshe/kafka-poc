@@ -7,3 +7,6 @@
 # Modified: 2019-12-04
 # Commit: fix: patch issue in email template renderer
 
+# Modified: 2019-12-17
+# Commit: refactor: clean up schema evolution
+
