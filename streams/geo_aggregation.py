@@ -10,3 +10,6 @@
 # Modified: 2019-12-17
 # Commit: feat: implement connect sink connector using remote state
 
+# Modified: 2019-12-19
+# Commit: feat: scaffold KTable definition
+
