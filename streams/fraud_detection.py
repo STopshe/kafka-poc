@@ -7,3 +7,6 @@
 # Modified: 2019-12-11
 # Commit: test: test ride event producer
 
+# Modified: 2019-12-24
+# Commit: fix: patch dead letter queue
+
