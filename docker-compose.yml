@@ -19,3 +19,6 @@
 # Modified: 2019-11-24
 # Commit: feat: build deserializer with post-render hooks
 
+# Modified: 2019-12-26
+# Commit: Merge pull request #5 from feature/state-store
+
