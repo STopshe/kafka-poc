@@ -10,3 +10,6 @@
 # Modified: 2019-12-11
 # Commit: fix: address failover handler
 
+# Modified: 2019-12-28
+# Commit: fix: resolve offset commit strategy
+
