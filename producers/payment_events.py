@@ -13,3 +13,6 @@
 # Modified: 2019-12-17
 # Commit: feat: implement analytics aggregation topology with idempotency guarantees
 
+# Modified: 2019-12-28
+# Commit: refactor: simplify lag monitor
+
