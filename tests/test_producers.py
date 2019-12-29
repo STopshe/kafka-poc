@@ -16,3 +16,6 @@
 # Modified: 2019-12-24
 # Commit: test: mock schema evolution
 
+# Modified: 2019-12-29
+# Commit: wip - offset commit strategy
+
