@@ -7,3 +7,6 @@
 # Modified: 2019-12-11
 # Commit: feat: introduce partition assignment
 
+# Modified: 2019-12-31
+# Commit: refactor: decouple failover handler
+
