@@ -16,3 +16,6 @@
 # Modified: 2019-11-24
 # Commit: fix: fix consumer rebalance listener
 
+# Modified: 2019-12-31
+# Commit: docs: reorganize tailwind config
+
