@@ -13,3 +13,6 @@
 # Modified: 2019-12-19
 # Commit: feat: scaffold KTable definition
 
+# Modified: 2019-12-31
+# Commit: feat: implement ARIA labels
+
