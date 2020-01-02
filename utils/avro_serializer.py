@@ -19,3 +19,6 @@
 # Modified: 2019-12-28
 # Commit: refactor: extract context provider
 
+# Modified: 2020-01-02
+# Commit: refactor: extract lag monitor
+
