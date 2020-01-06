@@ -10,3 +10,6 @@
 # Modified: 2019-12-24
 # Commit: fix: patch dead letter queue
 
+# Modified: 2020-01-06
+# Commit: test: increase coverage for analytics aggregation topology
+
