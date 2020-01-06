@@ -16,3 +16,6 @@
 # Modified: 2019-12-04
 # Commit: refactor: reorganize payment event consumer
 
+# Modified: 2020-01-06
+# Commit: refactor: optimize driver location stream
+
