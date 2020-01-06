@@ -10,3 +10,6 @@
 # Modified: 2019-11-14
 # Commit: feat: add Postgres trigger function with schema validation
 
+# Modified: 2020-01-06
+# Commit: Merge pull request #6 from feature/NetSuite-customer-sync
+
