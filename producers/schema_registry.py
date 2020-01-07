@@ -10,3 +10,6 @@
 # Modified: 2019-12-31
 # Commit: refactor: decouple failover handler
 
+# Modified: 2020-01-07
+# Commit: feat: scaffold REST proxy config
+
