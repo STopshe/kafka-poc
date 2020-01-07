@@ -16,3 +16,6 @@
 # Modified: 2019-12-28
 # Commit: refactor: simplify lag monitor
 
+# Modified: 2020-01-07
+# Commit: test: add unit test for lag monitor
+
