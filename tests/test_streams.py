@@ -19,3 +19,6 @@
 # Modified: 2020-01-06
 # Commit: refactor: optimize driver location stream
 
+# Modified: 2020-01-07
+# Commit: refactor: consolidate custom partitioner
+
