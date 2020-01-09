@@ -19,3 +19,6 @@
 # Modified: 2020-01-07
 # Commit: test: add unit test for lag monitor
 
+# Modified: 2020-01-09
+# Commit: fix: resolve exactly-once config
+
