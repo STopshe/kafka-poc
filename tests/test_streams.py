@@ -22,3 +22,6 @@
 # Modified: 2020-01-07
 # Commit: refactor: consolidate custom partitioner
 
+# Modified: 2020-01-10
+# Commit: refactor: consolidate lag monitor
+
