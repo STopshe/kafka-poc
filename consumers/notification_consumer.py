@@ -16,3 +16,6 @@
 # Modified: 2020-01-10
 # Commit: fix: fix partition assignment
 
+# Modified: 2020-01-13
+# Commit: feat: add support for windowed aggregation
+
