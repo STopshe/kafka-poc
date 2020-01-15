@@ -13,3 +13,6 @@
 # Modified: 2020-01-06
 # Commit: Merge pull request #6 from feature/NetSuite-customer-sync
 
+# Modified: 2020-01-15
+# Commit: refactor: streamline transactional producer
+
