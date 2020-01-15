@@ -22,3 +22,6 @@
 # Modified: 2020-01-07
 # Commit: still working on schema evolution
 
+# Modified: 2020-01-15
+# Commit: halfway through fraud detection stream
+
