@@ -13,3 +13,6 @@
 # Modified: 2019-12-17
 # Commit: performance: write up transformation SMT
 
+# Modified: 2020-01-16
+# Commit: work in progress: geo aggregation window
+
