@@ -13,3 +13,6 @@
 # Modified: 2020-01-07
 # Commit: feat: scaffold REST proxy config
 
+# Modified: 2020-01-20
+# Commit: Merge pull request #7 from feature/API-client-wrapper
+
