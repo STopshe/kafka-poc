@@ -13,3 +13,6 @@
 # Modified: 2019-11-24
 # Commit: feat: wire up consumer rebalance listener
 
+# Modified: 2020-01-20
+# Commit: fix: resolve payment event consumer
+
