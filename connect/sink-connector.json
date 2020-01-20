@@ -19,3 +19,6 @@
 # Modified: 2020-01-17
 # Commit: chore: update docs for KStream transformation
 
+# Modified: 2020-01-20
+# Commit: feat: introduce latency tracker for streaming responses
+
