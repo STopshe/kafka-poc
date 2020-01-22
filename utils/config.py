@@ -16,3 +16,6 @@
 # Modified: 2020-01-20
 # Commit: fix: resolve payment event consumer
 
+# Modified: 2020-01-22
+# Commit: feat: add Protobuf schema
+
