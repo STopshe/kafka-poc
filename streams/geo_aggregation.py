@@ -16,3 +16,6 @@
 # Modified: 2019-12-31
 # Commit: feat: implement ARIA labels
 
+# Modified: 2020-01-23
+# Commit: refactor: simplify FastAPI Pydantic model
+
