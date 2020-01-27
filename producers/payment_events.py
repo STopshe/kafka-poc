@@ -22,3 +22,6 @@
 # Modified: 2020-01-09
 # Commit: fix: resolve exactly-once config
 
+# Modified: 2020-01-27
+# Commit: feat: add support for error handler
+
