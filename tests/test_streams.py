@@ -28,3 +28,6 @@
 # Modified: 2020-01-28
 # Commit: fix: address key distribution analyzer when input is empty
 
+# Modified: 2020-01-28
+# Commit: refactor: decouple latency tracker
+
