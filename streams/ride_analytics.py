@@ -16,3 +16,6 @@
 # Modified: 2020-01-15
 # Commit: refactor: streamline transactional producer
 
+# Modified: 2020-01-29
+# Commit: fix: fix retry topic for NetSuite concurrency governance limit
+
