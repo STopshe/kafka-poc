@@ -22,3 +22,6 @@
 # Modified: 2020-01-20
 # Commit: feat: introduce latency tracker for streaming responses
 
+# Modified: 2020-01-30
+# Commit: feat: implement NetSuite item fulfillment using middleware chain
+
