@@ -19,3 +19,6 @@
 # Modified: 2020-01-29
 # Commit: fix: fix retry topic for NetSuite concurrency governance limit
 
+# Modified: 2020-01-31
+# Commit: refactor: streamline retry topic
+
