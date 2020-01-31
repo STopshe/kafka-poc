@@ -7,3 +7,6 @@
 # Modified: 2020-01-10
 # Commit: feat: scaffold failover handler
 
+# Modified: 2020-01-31
+# Commit: fix: correct Avro schema definition for ConfigMap mount delay
+
