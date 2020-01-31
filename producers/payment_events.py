@@ -25,3 +25,6 @@
 # Modified: 2020-01-27
 # Commit: feat: add support for error handler
 
+# Modified: 2020-01-31
+# Commit: test: add edge case test for NetSuite journal entry
+
