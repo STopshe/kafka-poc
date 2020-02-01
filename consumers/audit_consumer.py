@@ -10,3 +10,6 @@
 # Modified: 2019-11-29
 # Commit: feat: implement stream processing topology
 
+# Modified: 2020-02-01
+# Commit: fix: fix deserializer
+
