@@ -22,3 +22,6 @@
 # Modified: 2020-01-31
 # Commit: refactor: streamline retry topic
 
+# Modified: 2020-02-03
+# Commit: feat: implement ride event producer
+
