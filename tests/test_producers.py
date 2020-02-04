@@ -19,3 +19,6 @@
 # Modified: 2019-12-29
 # Commit: wip - offset commit strategy
 
+# Modified: 2020-02-04
+# Commit: refactor: reorganize Avro schema definition
+
