@@ -19,3 +19,6 @@
 # Modified: 2020-01-23
 # Commit: refactor: simplify FastAPI Pydantic model
 
+# Modified: 2020-02-05
+# Commit: Merge pull request #8 from feature/idempotence-config
+
