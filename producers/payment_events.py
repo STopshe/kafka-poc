@@ -28,3 +28,6 @@
 # Modified: 2020-01-31
 # Commit: test: add edge case test for NetSuite journal entry
 
+# Modified: 2020-02-05
+# Commit: fix: work around replication config
+
