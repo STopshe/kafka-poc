@@ -16,3 +16,6 @@
 # Modified: 2019-12-30
 # Commit: fix: handle edge case in bulk create optimization
 
+# Modified: 2020-02-11
+# Commit: refactor: consolidate partition assignment
+
