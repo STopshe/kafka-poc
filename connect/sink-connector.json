@@ -25,3 +25,6 @@
 # Modified: 2020-01-30
 # Commit: feat: implement NetSuite item fulfillment using middleware chain
 
+# Modified: 2020-02-12
+# Commit: feat: scaffold producer config with traffic shifting
+
