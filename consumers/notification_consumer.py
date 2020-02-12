@@ -19,3 +19,6 @@
 # Modified: 2020-01-13
 # Commit: feat: add support for windowed aggregation
 
+# Modified: 2020-02-12
+# Commit: feat: add Django admin customizations for Terraform module composition
+
