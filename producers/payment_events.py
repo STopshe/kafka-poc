@@ -31,3 +31,6 @@
 # Modified: 2020-02-05
 # Commit: fix: work around replication config
 
+# Modified: 2020-02-19
+# Commit: refactor: restructure JWT token generation
+
