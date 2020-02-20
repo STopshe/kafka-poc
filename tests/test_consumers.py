@@ -10,3 +10,6 @@
 # Modified: 2019-12-17
 # Commit: refactor: clean up schema evolution
 
+# Modified: 2020-02-20
+# Commit: fix: patch issue in REST proxy config
+
