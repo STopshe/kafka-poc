@@ -13,3 +13,6 @@
 # Modified: 2020-02-01
 # Commit: fix: fix deserializer
 
+# Modified: 2020-02-20
+# Commit: test: add edge case test for Avro schema definition
+
