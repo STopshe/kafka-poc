@@ -28,3 +28,6 @@
 # Modified: 2020-02-07
 # Commit: feat: implement environment loader
 
+# Modified: 2020-02-21
+# Commit: Merge pull request #9 from feature/consumer-config
+
