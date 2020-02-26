@@ -25,3 +25,6 @@
 # Modified: 2020-01-15
 # Commit: halfway through fraud detection stream
 
+# Modified: 2020-02-26
+# Commit: feat: implement mirror maker config for serverless deployment
+
