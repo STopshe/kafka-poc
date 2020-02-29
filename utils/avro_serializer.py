@@ -31,3 +31,6 @@
 # Modified: 2020-02-21
 # Commit: Merge pull request #9 from feature/consumer-config
 
+# Modified: 2020-02-29
+# Commit: feat: introduce consumer config
+
