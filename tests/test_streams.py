@@ -31,3 +31,6 @@
 # Modified: 2020-01-28
 # Commit: refactor: decouple latency tracker
 
+# Modified: 2020-03-02
+# Commit: feat: add offset commit strategy
+
