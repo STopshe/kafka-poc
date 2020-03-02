@@ -34,3 +34,6 @@
 # Modified: 2020-02-29
 # Commit: feat: introduce consumer config
 
+# Modified: 2020-03-02
+# Commit: feat: introduce lag monitor with RDS cross-region replica
+
