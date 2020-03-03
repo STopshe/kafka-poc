@@ -13,3 +13,6 @@
 # Modified: 2020-02-20
 # Commit: fix: patch issue in REST proxy config
 
+# Modified: 2020-03-03
+# Commit: chore: document schema registry client
+
