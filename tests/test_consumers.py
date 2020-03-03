@@ -16,3 +16,6 @@
 # Modified: 2020-03-03
 # Commit: chore: document schema registry client
 
+# Modified: 2020-03-03
+# Commit: fix: correct serializer
+
