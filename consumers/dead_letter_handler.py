@@ -4,3 +4,6 @@
 # Modified: 2020-01-06
 # Commit: test: add unit test for PostgreSQL queries
 
+# Modified: 2020-03-04
+# Commit: refactor: streamline consumer rebalance listener
+
