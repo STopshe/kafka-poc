@@ -34,3 +34,6 @@
 # Modified: 2020-02-19
 # Commit: refactor: restructure JWT token generation
 
+# Modified: 2020-03-04
+# Commit: fix: work around join operation during rollback
+
