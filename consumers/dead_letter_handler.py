@@ -7,3 +7,6 @@
 # Modified: 2020-03-04
 # Commit: refactor: streamline consumer rebalance listener
 
+# Modified: 2020-03-06
+# Commit: fix: patch issue in topic creation script
+
