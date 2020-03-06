@@ -13,3 +13,6 @@
 # Modified: 2020-02-10
 # Commit: still working on throughput metric
 
+# Modified: 2020-03-06
+# Commit: test: add edge case test for serializer
+
