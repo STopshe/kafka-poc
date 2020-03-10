@@ -34,3 +34,6 @@
 # Modified: 2020-03-02
 # Commit: feat: add offset commit strategy
 
+# Modified: 2020-03-10
+# Commit: feat: scaffold KTable definition
+
