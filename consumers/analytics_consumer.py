@@ -16,3 +16,6 @@
 # Modified: 2020-03-06
 # Commit: test: add edge case test for serializer
 
+# Modified: 2020-03-16
+# Commit: test: add edge case test for consumer group config
+
