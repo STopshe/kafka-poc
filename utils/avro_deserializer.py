@@ -16,3 +16,6 @@
 # Modified: 2020-01-16
 # Commit: work in progress: geo aggregation window
 
+# Modified: 2020-03-16
+# Commit: fix: mitigate event listener cleanup for missing environment variable
+
