@@ -40,3 +40,6 @@
 # Modified: 2020-03-10
 # Commit: performance: update lag monitor
 
+# Modified: 2020-03-17
+# Commit: feat: introduce ride event producer to support Helm chart customization
+
