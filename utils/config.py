@@ -19,3 +19,6 @@
 # Modified: 2020-01-22
 # Commit: feat: add Protobuf schema
 
+# Modified: 2020-03-18
+# Commit: test: increase coverage for schema registry client
+
