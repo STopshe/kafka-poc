@@ -13,3 +13,6 @@
 # Modified: 2020-01-06
 # Commit: test: increase coverage for analytics aggregation topology
 
+# Modified: 2020-03-20
+# Commit: fix: work around idempotence config
+
