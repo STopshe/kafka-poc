@@ -25,3 +25,6 @@
 # Modified: 2020-03-02
 # Commit: feat: create schema evolution
 
+# Modified: 2020-03-20
+# Commit: halfway through key distribution analyzer
+
