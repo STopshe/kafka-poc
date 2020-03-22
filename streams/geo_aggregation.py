@@ -22,3 +22,6 @@
 # Modified: 2020-02-05
 # Commit: Merge pull request #8 from feature/idempotence-config
 
+# Modified: 2020-03-22
+# Commit: feat: introduce interactive query
+
