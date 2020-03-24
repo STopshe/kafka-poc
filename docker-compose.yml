@@ -46,3 +46,6 @@
 # Modified: 2020-03-19
 # Commit: fix: address action creator
 
+# Modified: 2020-03-24
+# Commit: feat: implement Avro schema definition
+
