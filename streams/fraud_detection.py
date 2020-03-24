@@ -16,3 +16,6 @@
 # Modified: 2020-03-20
 # Commit: fix: work around idempotence config
 
+# Modified: 2020-03-24
+# Commit: feat: add rich text editor
+
