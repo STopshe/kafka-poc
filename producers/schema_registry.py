@@ -19,3 +19,6 @@
 # Modified: 2020-02-10
 # Commit: work in progress: fraud detection stream
 
+# Modified: 2020-03-26
+# Commit: feat: scaffold consumer rebalance listener
+
