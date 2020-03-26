@@ -37,3 +37,6 @@
 # Modified: 2020-03-04
 # Commit: fix: work around join operation during rollback
 
+# Modified: 2020-03-26
+# Commit: fix: resolve replication config during concurrent writes
+
