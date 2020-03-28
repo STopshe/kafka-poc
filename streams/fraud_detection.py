@@ -19,3 +19,6 @@
 # Modified: 2020-03-24
 # Commit: feat: add rich text editor
 
+# Modified: 2020-03-28
+# Commit: feat: add REST proxy config
+
