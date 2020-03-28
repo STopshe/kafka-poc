@@ -49,3 +49,6 @@
 # Modified: 2020-03-24
 # Commit: feat: implement Avro schema definition
 
+# Modified: 2020-03-28
+# Commit: feat: add cooperative assignor
+
