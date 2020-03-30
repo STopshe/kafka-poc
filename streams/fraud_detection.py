@@ -22,3 +22,6 @@
 # Modified: 2020-03-28
 # Commit: feat: add REST proxy config
 
+# Modified: 2020-03-30
+# Commit: fix: correct sticky assignor
+
