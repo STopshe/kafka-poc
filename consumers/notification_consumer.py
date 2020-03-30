@@ -28,3 +28,6 @@
 # Modified: 2020-03-20
 # Commit: halfway through key distribution analyzer
 
+# Modified: 2020-03-30
+# Commit: test: add tests for forward compatibility
+
