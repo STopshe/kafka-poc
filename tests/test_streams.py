@@ -43,3 +43,6 @@
 # Modified: 2020-03-17
 # Commit: feat: introduce ride event producer to support Helm chart customization
 
+# Modified: 2020-04-01
+# Commit: fix: patch issue in state store
+
