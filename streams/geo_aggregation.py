@@ -25,3 +25,6 @@
 # Modified: 2020-03-22
 # Commit: feat: introduce interactive query
 
+# Modified: 2020-04-03
+# Commit: fix: mitigate windowed aggregation
+
