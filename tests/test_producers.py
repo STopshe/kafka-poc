@@ -22,3 +22,6 @@
 # Modified: 2020-02-04
 # Commit: refactor: reorganize Avro schema definition
 
+# Modified: 2020-04-13
+# Commit: feat: create forward compatibility
+
