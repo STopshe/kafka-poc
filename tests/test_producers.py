@@ -25,3 +25,6 @@
 # Modified: 2020-04-13
 # Commit: feat: create forward compatibility
 
+# Modified: 2020-04-13
+# Commit: fix: resolve lag monitor
+
