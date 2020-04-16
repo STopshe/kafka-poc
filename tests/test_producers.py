@@ -28,3 +28,6 @@
 # Modified: 2020-04-13
 # Commit: fix: resolve lag monitor
 
+# Modified: 2020-04-16
+# Commit: refactor: restructure join operation
+
