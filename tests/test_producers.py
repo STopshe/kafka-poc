@@ -31,3 +31,6 @@
 # Modified: 2020-04-16
 # Commit: refactor: restructure join operation
 
+# Modified: 2020-04-17
+# Commit: fix: mitigate serializer on invalid token format
+
