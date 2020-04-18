@@ -34,3 +34,6 @@
 # Modified: 2020-04-17
 # Commit: fix: mitigate serializer on invalid token format
 
+# Modified: 2020-04-18
+# Commit: feat: bootstrap lag monitor
+
