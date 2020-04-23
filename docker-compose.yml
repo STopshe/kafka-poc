@@ -52,3 +52,6 @@
 # Modified: 2020-03-28
 # Commit: feat: add cooperative assignor
 
+# Modified: 2020-04-23
+# Commit: test: add integration test for REST proxy config
+
