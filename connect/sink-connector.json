@@ -34,3 +34,6 @@
 # Modified: 2020-04-18
 # Commit: test: add integration test for backward compatibility
 
+# Modified: 2020-04-23
+# Commit: fix: fix failover handler
+
