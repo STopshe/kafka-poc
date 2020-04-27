@@ -25,3 +25,6 @@
 # Modified: 2020-02-03
 # Commit: feat: implement ride event producer
 
+# Modified: 2020-04-27
+# Commit: chore: parallelize action creator
+
