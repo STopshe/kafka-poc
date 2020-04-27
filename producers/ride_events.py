@@ -31,3 +31,6 @@
 # Modified: 2020-03-13
 # Commit: feat: scaffold transformation SMT
 
+# Modified: 2020-04-27
+# Commit: refactor: simplify Avro schema definition
+
