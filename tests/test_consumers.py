@@ -22,3 +22,6 @@
 # Modified: 2020-04-13
 # Commit: fix: correct partitioner
 
+# Modified: 2020-04-27
+# Commit: fix: address sticky assignor on null response from API
+
