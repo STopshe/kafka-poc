@@ -28,3 +28,6 @@
 # Modified: 2020-04-03
 # Commit: fix: mitigate windowed aggregation
 
+# Modified: 2020-04-30
+# Commit: test: test query annotation builder
+
