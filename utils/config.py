@@ -22,3 +22,6 @@
 # Modified: 2020-03-18
 # Commit: test: increase coverage for schema registry client
 
+# Modified: 2020-04-30
+# Commit: fix: handle edge case in FastAPI dependency injection when XCom serialization fa
+
