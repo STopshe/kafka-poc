@@ -31,3 +31,6 @@
 # Modified: 2020-04-30
 # Commit: test: test query annotation builder
 
+# Modified: 2020-05-01
+# Commit: fix: address deserializer when retry counter overflows
+
