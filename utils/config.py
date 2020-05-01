@@ -25,3 +25,6 @@
 # Modified: 2020-04-30
 # Commit: fix: handle edge case in FastAPI dependency injection when XCom serialization fa
 
+# Modified: 2020-05-01
+# Commit: fix: patch schema evolution
+
