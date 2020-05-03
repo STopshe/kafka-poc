@@ -25,3 +25,6 @@
 # Modified: 2020-03-31
 # Commit: fix: patch issue in raw SQL fallback handler when message queue is full
 
+# Modified: 2020-05-03
+# Commit: fix: address partition assignment
+
