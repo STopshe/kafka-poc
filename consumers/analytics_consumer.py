@@ -28,3 +28,6 @@
 # Modified: 2020-05-03
 # Commit: fix: address partition assignment
 
+# Modified: 2020-05-03
+# Commit: refactor: consolidate deserializer
+
