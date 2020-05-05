@@ -25,3 +25,6 @@
 # Modified: 2020-04-27
 # Commit: fix: address sticky assignor on null response from API
 
+# Modified: 2020-05-05
+# Commit: feat: add consumer config with replay protection
+
