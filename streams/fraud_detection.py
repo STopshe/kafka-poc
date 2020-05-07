@@ -31,3 +31,6 @@
 # Modified: 2020-04-19
 # Commit: Merge pull request #11 from feature/payment-event-consumer
 
+# Modified: 2020-05-07
+# Commit: feat: create windowed aggregation
+
