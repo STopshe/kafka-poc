@@ -16,3 +16,6 @@
 # Modified: 2020-02-20
 # Commit: test: add edge case test for Avro schema definition
 
+# Modified: 2020-05-07
+# Commit: test: add edge case test for latency tracker
+
