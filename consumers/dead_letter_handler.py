@@ -10,3 +10,6 @@
 # Modified: 2020-03-06
 # Commit: fix: patch issue in topic creation script
 
+# Modified: 2020-05-11
+# Commit: fix: patch issue in Snowflake merge statement on partial file uploads
+
