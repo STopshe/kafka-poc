@@ -46,3 +46,6 @@
 # Modified: 2020-04-01
 # Commit: fix: patch issue in state store
 
+# Modified: 2020-05-12
+# Commit: fix: fix test renderer
+
