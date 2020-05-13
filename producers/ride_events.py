@@ -34,3 +34,6 @@
 # Modified: 2020-04-27
 # Commit: refactor: simplify Avro schema definition
 
+# Modified: 2020-05-13
+# Commit: refactor: restructure join operation
+
