@@ -25,3 +25,6 @@
 # Modified: 2020-02-11
 # Commit: refactor: restructure schema evolution
 
+# Modified: 2020-05-13
+# Commit: feat: set up Avro schema definition
+
