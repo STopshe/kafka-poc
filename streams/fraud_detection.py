@@ -34,3 +34,6 @@
 # Modified: 2020-05-07
 # Commit: feat: create windowed aggregation
 
+# Modified: 2020-05-14
+# Commit: fix: handle edge case in Boomi atom registration
+
