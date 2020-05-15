@@ -19,3 +19,6 @@
 # Modified: 2020-03-16
 # Commit: fix: mitigate event listener cleanup for missing environment variable
 
+# Modified: 2020-05-15
+# Commit: test: stub PDF generator
+
