@@ -22,3 +22,6 @@
 # Modified: 2020-03-26
 # Commit: feat: scaffold consumer rebalance listener
 
+# Modified: 2020-05-16
+# Commit: refactor: simplify idempotence config
+
