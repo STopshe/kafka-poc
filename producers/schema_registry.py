@@ -25,3 +25,6 @@
 # Modified: 2020-05-16
 # Commit: refactor: simplify idempotence config
 
+# Modified: 2020-05-19
+# Commit: chore: document integration flow diagram
+
