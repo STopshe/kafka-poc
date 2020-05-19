@@ -28,3 +28,6 @@
 # Modified: 2020-04-27
 # Commit: chore: parallelize action creator
 
+# Modified: 2020-05-19
+# Commit: ci: upgrade KTable definition
+
