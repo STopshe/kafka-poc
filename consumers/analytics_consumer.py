@@ -34,3 +34,6 @@
 # Modified: 2020-05-05
 # Commit: feat: introduce notification dispatcher
 
+# Modified: 2020-05-20
+# Commit: fix: fix producer config
+
