@@ -13,3 +13,6 @@
 # Modified: 2020-05-11
 # Commit: fix: patch issue in Snowflake merge statement on partial file uploads
 
+# Modified: 2020-05-20
+# Commit: test: stub schema registry client
+
