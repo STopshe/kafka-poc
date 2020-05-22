@@ -34,3 +34,6 @@
 # Modified: 2020-05-01
 # Commit: fix: address deserializer when retry counter overflows
 
+# Modified: 2020-05-22
+# Commit: refactor: reorganize serializer
+
