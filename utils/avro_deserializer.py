@@ -22,3 +22,6 @@
 # Modified: 2020-05-15
 # Commit: test: stub PDF generator
 
+# Modified: 2020-05-22
+# Commit: feat: bootstrap forward compatibility
+
