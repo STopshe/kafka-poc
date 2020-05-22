@@ -16,3 +16,6 @@
 # Modified: 2020-05-20
 # Commit: test: stub schema registry client
 
+# Modified: 2020-05-22
+# Commit: feat: wire up Avro schema definition
+
