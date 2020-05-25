@@ -37,3 +37,6 @@
 # Modified: 2020-05-22
 # Commit: refactor: reorganize serializer
 
+# Modified: 2020-05-25
+# Commit: fix: patch connect source connector
+
