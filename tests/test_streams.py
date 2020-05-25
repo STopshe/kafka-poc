@@ -49,3 +49,6 @@
 # Modified: 2020-05-12
 # Commit: fix: fix test renderer
 
+# Modified: 2020-05-25
+# Commit: refactor: restructure Celery worker prefetch
+
