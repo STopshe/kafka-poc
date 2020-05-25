@@ -40,3 +40,6 @@
 # Modified: 2020-03-26
 # Commit: fix: resolve replication config during concurrent writes
 
+# Modified: 2020-05-25
+# Commit: fix: resolve interactive query
+
