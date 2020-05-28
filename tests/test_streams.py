@@ -52,3 +52,6 @@
 # Modified: 2020-05-25
 # Commit: refactor: restructure Celery worker prefetch
 
+# Modified: 2020-05-28
+# Commit: fix: handle edge case in dead letter queue
+
