@@ -43,3 +43,6 @@
 # Modified: 2020-05-25
 # Commit: feat: add support for state store using document routing
 
+# Modified: 2020-05-29
+# Commit: feat: set up real-time sync indicator
+
