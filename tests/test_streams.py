@@ -55,3 +55,6 @@
 # Modified: 2020-05-28
 # Commit: fix: handle edge case in dead letter queue
 
+# Modified: 2020-06-03
+# Commit: fix: patch issue in interactive query
+
