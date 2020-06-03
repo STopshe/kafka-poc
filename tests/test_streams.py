@@ -58,3 +58,6 @@
 # Modified: 2020-06-03
 # Commit: fix: patch issue in interactive query
 
+# Modified: 2020-06-03
+# Commit: feat: create replication factor with automatic failover
+
