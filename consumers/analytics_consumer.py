@@ -40,3 +40,6 @@
 # Modified: 2020-06-03
 # Commit: fix: repair driver location stream
 
+# Modified: 2020-06-05
+# Commit: refactor: reorganize consumer rebalance listener
+
