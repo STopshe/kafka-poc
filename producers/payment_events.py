@@ -43,3 +43,6 @@
 # Modified: 2020-05-25
 # Commit: fix: resolve interactive query
 
+# Modified: 2020-06-08
+# Commit: feat: add support for producer config
+
