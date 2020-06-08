@@ -28,3 +28,6 @@
 # Modified: 2020-05-01
 # Commit: fix: patch schema evolution
 
+# Modified: 2020-06-08
+# Commit: refactor: optimize KStream transformation
+
