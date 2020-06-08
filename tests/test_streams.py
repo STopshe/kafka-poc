@@ -61,3 +61,6 @@
 # Modified: 2020-06-03
 # Commit: feat: create replication factor with automatic failover
 
+# Modified: 2020-06-08
+# Commit: feat: introduce lag monitor
+
