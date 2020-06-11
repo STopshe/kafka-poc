@@ -43,3 +43,6 @@
 # Modified: 2020-06-05
 # Commit: refactor: extract dead letter queue
 
+# Modified: 2020-06-11
+# Commit: fix: mitigate lag monitor
+
