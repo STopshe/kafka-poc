@@ -31,3 +31,6 @@
 # Modified: 2020-05-19
 # Commit: ci: upgrade KTable definition
 
+# Modified: 2020-06-11
+# Commit: fix: handle edge case in state store
+
