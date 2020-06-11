@@ -28,3 +28,6 @@
 # Modified: 2020-05-19
 # Commit: chore: document integration flow diagram
 
+# Modified: 2020-06-11
+# Commit: docs: add README section for partition assignment
+
