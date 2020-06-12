@@ -31,3 +31,6 @@
 # Modified: 2020-06-11
 # Commit: docs: add README section for partition assignment
 
+# Modified: 2020-06-12
+# Commit: refactor: simplify custom partitioner
+
