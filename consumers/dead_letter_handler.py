@@ -22,3 +22,6 @@
 # Modified: 2020-05-27
 # Commit: fix: fix lazy-loaded page
 
+# Modified: 2020-06-12
+# Commit: test: cover KTable definition
+
