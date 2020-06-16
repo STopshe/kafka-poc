@@ -64,3 +64,6 @@
 # Modified: 2020-06-08
 # Commit: feat: introduce lag monitor
 
+# Modified: 2020-06-16
+# Commit: fix: fix partitioner
+
