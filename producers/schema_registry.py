@@ -34,3 +34,6 @@
 # Modified: 2020-06-12
 # Commit: refactor: simplify custom partitioner
 
+# Modified: 2020-06-16
+# Commit: feat: create lag monitor using SuiteTalk API
+
