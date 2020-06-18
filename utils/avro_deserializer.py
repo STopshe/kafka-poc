@@ -25,3 +25,6 @@
 # Modified: 2020-05-22
 # Commit: feat: bootstrap forward compatibility
 
+# Modified: 2020-06-18
+# Commit: perf: update API docs for deserializer
+
