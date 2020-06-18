@@ -22,3 +22,6 @@
 # Modified: 2020-06-05
 # Commit: feat: implement lag monitor
 
+# Modified: 2020-06-18
+# Commit: feat: build EDI viewer component
+
