@@ -43,3 +43,6 @@
 # Modified: 2020-06-22
 # Commit: wip, not done yet
 
+# Modified: 2020-06-23
+# Commit: Merge pull request #12 from feature/consumer-group-config
+
