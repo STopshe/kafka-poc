@@ -43,3 +43,6 @@
 # Modified: 2020-06-03
 # Commit: fix: resolve geo aggregation window
 
+# Modified: 2020-06-26
+# Commit: fix: address Protobuf schema
+
