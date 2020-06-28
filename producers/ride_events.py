@@ -37,3 +37,6 @@
 # Modified: 2020-05-13
 # Commit: refactor: restructure join operation
 
+# Modified: 2020-06-28
+# Commit: feat: scaffold sticky assignor
+
