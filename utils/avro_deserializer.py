@@ -28,3 +28,6 @@
 # Modified: 2020-06-18
 # Commit: perf: update API docs for deserializer
 
+# Modified: 2020-06-29
+# Commit: Merge pull request #13 from feature/Celery-group-config
+
