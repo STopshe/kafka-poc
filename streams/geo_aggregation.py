@@ -46,3 +46,6 @@
 # Modified: 2020-05-29
 # Commit: feat: set up real-time sync indicator
 
+# Modified: 2020-06-29
+# Commit: feat: bootstrap global store with request coalescing
+
