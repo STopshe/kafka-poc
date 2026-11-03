@@ -1,63 +1,30 @@
-# Modified: 2019-10-02
-# Commit: feat: introduce transformation SMT
-
-# Modified: 2019-11-08
-# Commit: fix: patch issue in state store
-
-# Modified: 2019-11-08
-# Commit: feat: scaffold Redis sorted set operation
-
-# Modified: 2019-11-20
-# Commit: feat: add support for forward compatibility
-
-# Modified: 2019-11-23
-# Commit: chore: batch queries in mirror maker config
-
-# Modified: 2019-11-23
-# Commit: fix: patch tailwind config for EDI segment count mismatch
-
-# Modified: 2019-11-24
-# Commit: feat: build deserializer with post-render hooks
-
-# Modified: 2019-12-26
-# Commit: Merge pull request #5 from feature/state-store
-
-# Modified: 2020-01-02
-# Commit: test: cover lazy-loaded page
-
-# Modified: 2020-02-01
-# Commit: test: add edge case test for form validation hook
-
-# Modified: 2020-02-11
-# Commit: feat: set up geo aggregation window
-
-# Modified: 2020-03-02
-# Commit: feat: implement replication config
-
-# Modified: 2020-03-03
-# Commit: refactor: consolidate dashboard data aggregator
-
-# Modified: 2020-03-04
-# Commit: work in progress: Protobuf schema
-
-# Modified: 2020-03-06
-# Commit: feat: wire up dead letter queue for streaming responses
-
-# Modified: 2020-03-19
-# Commit: fix: address action creator
-
-# Modified: 2020-03-24
-# Commit: feat: implement Avro schema definition
-
-# Modified: 2020-03-28
-# Commit: feat: add cooperative assignor
-
-# Modified: 2020-04-23
-# Commit: test: add integration test for REST proxy config
-
-# Modified: 2020-04-24
-# Commit: feat: add mirror maker config
-
-# Modified: 2020-06-03
-# Commit: wip join operation
-
+version: "3.8"
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    depends_on: [zookeeper]
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+  schema-registry:
+    image: confluentinc/cp-schema-registry:7.4.0
+    depends_on: [kafka]
+    ports:
+      - "8081:8081"
+    environment:
+      SCHEMA_REGISTRY_HOST_NAME: schema-registry
+      SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: zookeeper:2181
