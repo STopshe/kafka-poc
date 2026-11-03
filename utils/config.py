@@ -1,36 +1,18 @@
-# Modified: 2019-10-02
-# Commit: feat: scaffold topic creation script
+"""Central config for Kafka POC."""
+import os
 
-# Modified: 2019-10-03
-# Commit: wip, not done yet
+BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092").split(",")
+SCHEMA_REGISTRY_URL = os.getenv("SCHEMA_REGISTRY_URL", "http://localhost:8081")
 
-# Modified: 2019-10-10
-# Commit: test: add edge case test for schema registry client
+TOPICS = {
+    "ride_events": "ride-events",
+    "payment_events": "payment-events",
+    "driver_location": "driver-location",
+    "ride_analytics": "ride-analytics",
+}
 
-# Modified: 2019-10-15
-# Commit: fix: resolve KTable definition
-
-# Modified: 2019-11-24
-# Commit: feat: wire up consumer rebalance listener
-
-# Modified: 2020-01-20
-# Commit: fix: resolve payment event consumer
-
-# Modified: 2020-01-22
-# Commit: feat: add Protobuf schema
-
-# Modified: 2020-03-18
-# Commit: test: increase coverage for schema registry client
-
-# Modified: 2020-04-30
-# Commit: fix: handle edge case in FastAPI dependency injection when XCom serialization fa
-
-# Modified: 2020-05-01
-# Commit: fix: patch schema evolution
-
-# Modified: 2020-06-08
-# Commit: refactor: optimize KStream transformation
-
-# Modified: 2020-06-23
-# Commit: test: test rate limiter
-
+CONSUMER_GROUPS = {
+    "analytics": "analytics-consumer-group",
+    "notifications": "notification-consumer-group",
+    "audit": "audit-consumer-group",
+}
