@@ -1,45 +1,33 @@
-# Modified: 2019-11-19
-# Commit: fix: address lag monitor for missing ISA envelope segment
+"""Analytics consumer for Kafka POC."""
+import json
+from collections import defaultdict
+from kafka import KafkaConsumer
 
-# Modified: 2019-12-13
-# Commit: docs: clarify global store
+consumer = KafkaConsumer(
+    "ride-events",
+    bootstrap_servers=["localhost:9092"],
+    group_id="analytics-consumer-group",
+    value_deserializer=lambda v: json.loads(v.decode("utf-8")),
+    auto_offset_reset="earliest",
+    enable_auto_commit=False,
+)
 
-# Modified: 2020-01-10
-# Commit: feat: scaffold failover handler
+counts = defaultdict(int)
+total = 0
 
-# Modified: 2020-01-31
-# Commit: fix: correct Avro schema definition for ConfigMap mount delay
-
-# Modified: 2020-02-10
-# Commit: still working on throughput metric
-
-# Modified: 2020-03-06
-# Commit: test: add edge case test for serializer
-
-# Modified: 2020-03-16
-# Commit: test: add edge case test for consumer group config
-
-# Modified: 2020-03-27
-# Commit: Merge pull request #10 from feature/mirror-maker-config
-
-# Modified: 2020-03-31
-# Commit: fix: patch issue in raw SQL fallback handler when message queue is full
-
-# Modified: 2020-05-03
-# Commit: fix: address partition assignment
-
-# Modified: 2020-05-03
-# Commit: refactor: consolidate deserializer
-
-# Modified: 2020-05-05
-# Commit: feat: introduce notification dispatcher
-
-# Modified: 2020-05-20
-# Commit: fix: fix producer config
-
-# Modified: 2020-06-03
-# Commit: fix: repair driver location stream
-
-# Modified: 2020-06-05
-# Commit: refactor: reorganize consumer rebalance listener
-
+if __name__ == "__main__":
+    print("Consuming ride events...")
+    try:
+        for msg in consumer:
+            event = msg.value
+            counts[event.get("status", "UNKNOWN")] += 1
+            total += 1
+            if total % 10 == 0:
+                print(f"--- {total} events ---")
+                for s, c in sorted(counts.items()):
+                    print(f"  {s}: {c}")
+            consumer.commit()
+    except KeyboardInterrupt:
+        print(f"Final: {dict(counts)}")
+    finally:
+        consumer.close()
