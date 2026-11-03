@@ -1,42 +1,42 @@
-# Modified: 2019-10-04
-# Commit: test: test KTable definition
+"""Ride event producer for Kafka POC."""
+import json, time, random, uuid
+from datetime import datetime
+from kafka import KafkaProducer
 
-# Modified: 2019-10-08
-# Commit: refactor: simplify ride event producer
+producer = KafkaProducer(
+    bootstrap_servers=["localhost:9092"],
+    value_serializer=lambda v: json.dumps(v).encode("utf-8"),
+    key_serializer=lambda k: k.encode("utf-8") if k else None,
+    acks="all",
+    retries=5,
+    enable_idempotence=True,
+)
 
-# Modified: 2019-10-14
-# Commit: fix: mitigate producer config
+STATUSES = ["REQUESTED", "ACCEPTED", "IN_PROGRESS", "COMPLETED", "CANCELLED"]
 
-# Modified: 2019-11-12
-# Commit: fix: address exactly-once config
+def generate_event():
+    return {
+        "event_id": str(uuid.uuid4()),
+        "ride_id": str(uuid.uuid4()),
+        "status": random.choice(STATUSES),
+        "passenger_id": f"user_{random.randint(1000, 9999)}",
+        "driver_id": f"driver_{random.randint(1000, 9999)}" if random.random() > 0.2 else None,
+        "pickup_lat": round(random.uniform(40.6, 40.8), 6),
+        "pickup_lng": round(random.uniform(-74.05, -73.85), 6),
+        "timestamp": datetime.utcnow().isoformat(),
+        "fare": round(random.uniform(8.0, 45.0), 2) if random.random() > 0.5 else None,
+    }
 
-# Modified: 2019-11-19
-# Commit: Merge pull request #3 from feature/SAP-integration-layer
-
-# Modified: 2019-11-24
-# Commit: fix: fix consumer rebalance listener
-
-# Modified: 2019-12-31
-# Commit: docs: reorganize tailwind config
-
-# Modified: 2020-01-07
-# Commit: still working on schema evolution
-
-# Modified: 2020-01-15
-# Commit: halfway through fraud detection stream
-
-# Modified: 2020-02-26
-# Commit: feat: implement mirror maker config for serverless deployment
-
-# Modified: 2020-03-13
-# Commit: feat: scaffold transformation SMT
-
-# Modified: 2020-04-27
-# Commit: refactor: simplify Avro schema definition
-
-# Modified: 2020-05-13
-# Commit: refactor: restructure join operation
-
-# Modified: 2020-06-28
-# Commit: feat: scaffold sticky assignor
-
+if __name__ == "__main__":
+    print("Producing ride events...")
+    try:
+        for _ in range(100):
+            event = generate_event()
+            producer.send("ride-events", key=event["ride_id"], value=event)
+            time.sleep(0.5)
+        producer.flush()
+        print("Done.")
+    except KeyboardInterrupt:
+        print("Stopped.")
+    finally:
+        producer.close()
