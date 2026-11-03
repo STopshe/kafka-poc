@@ -1,36 +1,46 @@
-# Modified: 2019-10-02
-# Commit: feat: add serializer using connection health checks
+"""Stream processor with tumbling windows."""
+import json
+from collections import defaultdict
+from datetime import datetime
+from kafka import KafkaConsumer, KafkaProducer
 
-# Modified: 2019-10-09
-# Commit: Merge pull request #2 from feature/schema-registry-client
+consumer = KafkaConsumer(
+    "ride-events",
+    bootstrap_servers=["localhost:9092"],
+    group_id="stream-processor",
+    value_deserializer=lambda v: json.loads(v.decode("utf-8")),
+    auto_offset_reset="earliest",
+    enable_auto_commit=True,
+)
 
-# Modified: 2019-11-05
-# Commit: fix: resolve dead letter queue
+producer = KafkaProducer(
+    bootstrap_servers=["localhost:9092"],
+    value_serializer=lambda v: json.dumps(v).encode("utf-8"),
+)
 
-# Modified: 2019-11-14
-# Commit: feat: add Postgres trigger function with schema validation
+WINDOW = 60
+window_start = datetime.utcnow()
+window_counts = defaultdict(int)
 
-# Modified: 2020-01-06
-# Commit: Merge pull request #6 from feature/NetSuite-customer-sync
-
-# Modified: 2020-01-15
-# Commit: refactor: streamline transactional producer
-
-# Modified: 2020-01-29
-# Commit: fix: fix retry topic for NetSuite concurrency governance limit
-
-# Modified: 2020-01-31
-# Commit: refactor: streamline retry topic
-
-# Modified: 2020-02-03
-# Commit: feat: implement ride event producer
-
-# Modified: 2020-04-27
-# Commit: chore: parallelize action creator
-
-# Modified: 2020-05-19
-# Commit: ci: upgrade KTable definition
-
-# Modified: 2020-06-11
-# Commit: fix: handle edge case in state store
-
+if __name__ == "__main__":
+    print("Stream processing: ride-events -> ride-analytics")
+    try:
+        for msg in consumer:
+            event = msg.value
+            window_counts[event.get("status", "UNKNOWN")] += 1
+            now = datetime.utcnow()
+            if (now - window_start).total_seconds() >= WINDOW:
+                result = {
+                    "window_start": window_start.isoformat(),
+                    "counts": dict(window_counts),
+                    "total": sum(window_counts.values()),
+                }
+                producer.send("ride-analytics", value=result)
+                print(f"Flushed: {result}")
+                window_counts.clear()
+                window_start = now
+    except KeyboardInterrupt:
+        print("Stopped.")
+    finally:
+        consumer.close()
+        producer.close()
